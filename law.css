@@ -1,0 +1,652 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    background-color: rgb(248, 243, 243);
+    position: fixed;
+    width: 100%;
+    z-index: 3000px;
+}
+.nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    
+} 
+.nav a{
+}
+.leftM{
+    background-color: rgb(191, 200, 200);
+}
+.Mother{
+    background-image: url("Nairobi\ Background.jpg");
+    width: 100%;
+    height: 550px;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (min-width:500px){
+    .nav a{
+        color: black;
+    }
+    .leftM{
+        width: 40%;
+        height: 550px;
+        float: left;
+    }
+    .vision{
+        background-color: darkslategrey;
+        height: 500px;
+        text-align: center;
+    }
+    .p p{
+        color: white;
+        font-weight: lighter;
+        line-height: 30px;
+        font-size: 23px;
+    }
+    .page{
+        background-image: url(pexels-olia-danilevich-5313133.jpg);
+        width: 100%;
+        height: 550px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .rightC{
+        width: 60%;
+        height: 550px;
+        float: right;
+    }
+    .leftC{
+        width: 40%;
+        height: 80%;
+        height: 550px;
+        float: left;
+        background-color: rgb(22, 41, 68);
+
+    }
+    .last{
+        background-color: rgb(22, 41, 68);
+        color: white;
+        padding: 30px;
+    }
+    .top{
+        width: 500px;
+        height: 100px;
+        background-color: aqua;
+    }
+    .last button{
+        border: none;
+        background-color: transparent;
+        padding: 10px;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 47%;
+    }
+    .texts{
+        height: 40%;
+        padding: 10px;
+    }
+    .texts p{
+        padding: 10px;
+    }
+    .last button a{
+        text-decoration: none;
+        color: white;
+        margin-left: -50px;
+        font-size: 20px;
+    }
+    .last h1{
+        margin-left: 230px;
+    }
+    .p{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .textarea{
+        height: 150px;
+        width: 250px;
+        margin-left: 40%;
+        margin-top: -270px;
+    }
+    .textarea h1{
+        color: white;
+    }
+    .leftForms{
+        margin-left: 30px;
+        height: 250px;
+        width: 50%;
+        padding: 10px;
+    }
+    .leftForms h1{
+        font-size: 16px;
+        color: white;
+    }
+    .artoneys{
+        height: 500px;
+        background-color: rgb(170, 186, 188);
+
+        display: flex;
+        flex-direction: row;
+    }
+    .artoneys img{
+        width: 100%;
+        height: 70%;
+    }
+    .artoneys>div{  
+        margin-top: 100px;
+        background-color: white;
+        width: 220px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .artoneys>div:first-of-type{
+        margin-left: 300px;
+
+    }
+    .artoneys h1{
+    }
+    #artH1{
+        margin-left: 500px;
+        position: absolute;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 4px;
+    }
+    .artoneys p,h1{
+        padding: 2px;
+        text-align: center;
+    }
+    .artoneys h1{
+        font-size: 16px;
+    }
+    input[type=submit]{
+        width: 100%;
+        padding: 5px;
+        margin-top: 7px;
+        margin-left: 0px;
+    }
+    .form{
+        width: 100%;
+        height: 300px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .leftForms>div{
+        width: 200px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .form .textarea{
+        height: 230px;
+    }
+    textarea{
+        height: 80%;
+        width: 100%;
+    }
+    textarea h1{
+        display: none;
+    }
+    .ones{
+        margin-right: 30px;
+    }
+    .twos{
+    }
+    .threes{
+        margin-right: 30px;
+    }
+    .fours{
+    }
+    .right{
+        width: 50%;
+        height: 550px;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .right>div{
+        width: 260px;
+        height: 150px;
+    }
+    .one{
+        margin-right: 30px;
+    }
+    .two{
+    }
+    .three{
+        margin-right: 30px;
+    }
+    .four{
+    }
+    .five{
+        margin-right: 30px;
+    }
+    .six{
+    }
+    #open{
+        display: none;
+    }
+    #close{
+        display: none;
+    }
+    .nav{
+        height: 60px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        font-size: 22px;    
+        padding-right: 20px;
+        
+    }
+    .nav a:first-of-type{
+        margin-left: 40%;
+
+    }
+    .nav h1{
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 100px;
+    }
+    .content{
+        height: 600px;
+    }
+    .contacts{
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+}
+@media only  screen and (max-width:500px){
+    body{
+        overflow-x: hidden;
+    }
+    .Mother{
+        width: 382vw;
+
+        height: 280vh;
+    }.left{
+       background-color:  rgba(18, 125, 192,0.3);
+        height: 400px;
+        width: 300vw;
+        margin-left: 200px;
+        margin-top: 150vh;
+        position: absolute;
+    }
+    .left h1{
+        font-size: 5.5rem;
+        font-weight: bolder;
+    }
+    .left p{
+        font-size: 5rem;
+    }
+    .content{
+        height: 600px;
+        width: 382vw;
+    }
+    .leftM{
+        text-align: center;
+        font-size: 45px;
+        padding: 10px;
+    }
+    .right{
+        width: 382vw;
+        height: 300vh;
+        float: left;
+        background-color:rgb(221, 224, 225);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1  200px;
+        
+    }
+    /* .vision{
+        margin-top: 500px;
+        background-color: darkslategrey;
+        height: 500px;
+        width: 300vw;
+        text-align: center;
+    } */
+    .one{
+        margin-right: 30px;
+    }
+    .two{
+    }
+    .three{
+        margin-right: 30px;
+    }
+    .four{
+    }
+    .five{
+        margin-right: 30px;
+    }
+    .six{
+    }
+    .right>div{
+        width: 85%;
+        margin-left: 80px;
+        height: 400px;
+        margin-bottom: 50px;
+        font-size: 45px;
+    }
+    .right>div>p,h1{
+        padding: 5px;
+        margin-left: 50px;
+    }
+    .nav h1{
+        display: none;
+    }
+    .navigation{
+        width: 382vw;
+        height: 120px;
+    }
+    .nav{
+        z-index: auto;
+        display: block;
+        display: none;
+        width: 50%;
+        height: 300vh;
+        position: absolute;
+        margin-left: 50%;
+        margin-right: 20px;
+        border: 2px solid black;
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-bottom: 100px;
+        margin-left: 40px;
+        font-weight: bolder;
+        font-size: 42px;
+        margin-top: 100px;
+        font-size: 5rem;
+    }
+
+    #open{
+        float: right;
+        padding: 20px;
+        font-size: 35px;
+        background-color: none;
+        background-color: transparent;
+        color: black;
+        border: none;
+        margin-top: 5px;
+    }
+    #open i{
+        font-size: 68px;
+    }
+    #open::before{
+        content: "LAW" ;
+        font-size: 50px;
+        margin-right: 1200px;
+        margin-top: -25px;
+
+        font-weight: bolder;
+    }
+    #close{
+        float: right;
+        padding: 10px;
+        font-size: 5rem;
+        background-color: none;
+        background-color: transparent;
+        border: none;
+        margin-bottom: 20px;
+        margin-right: 70px;
+        margin-top: 80px;
+    }
+    .vision{
+        background-color: rgb(22, 41, 68);
+        width: 382vw;
+        height: 380vh;
+        margin-bottom: 10px;
+    }
+    .vision p{
+        font-size: 4rem;
+        margin-left: 30px;
+        margin-right: 30px;
+        word-wrap: break-word;
+        color: white;
+    }
+    .p{
+        font-size: 35px;
+        margin-left: 30px;
+        margin-right: 30px;
+        word-wrap: break-word;
+        padding: 20px;
+        height: 85%;
+    }
+    .p p{
+        line-height: 67px;
+        padding: 10px;
+        line-height: 90px;
+
+        font-size:4rem;
+    }
+    /* .artoneys{
+        margin-top: 200px;
+        height: 500px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .artoneys img{
+        width: 100%;
+        height: 70%;
+    }
+    .artoneys>div{  
+        margin-top: 100px;
+        background-color: yellow;
+        width: 220px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .artoneys>div:first-of-type{
+
+    }
+    .artoneys p,h1{
+        padding: 2px;
+        text-align: center;
+    }
+    .artoneys h1{
+        font-size: 16px;
+    } */
+        .artoneys>div{
+            margin-top: 330px;
+            width: 60%;
+            background-color: white;
+            margin-bottom: 200px;
+            height: 130vh;
+            margin-left: 300px;
+        }
+        .card1 img{
+            height: 50%;
+        }
+        .card2{
+            background-color: white;
+            width: 200px;
+            height: 300px;
+        }
+        .artoneys>div:first-of-type{
+            margin-top: 100px;
+            margin-bottom: 300px;
+        }
+        .artoneys h1{
+            text-align: center;
+            font-size: 4rem;
+        }
+        .artoneys>div>h1{
+            font-size: 3.5rem;
+            text-align: center;
+        }
+        .artoneys>div>p{
+            text-align: center;
+            font-size: 3.3rem;
+        }
+        .artoneys img{
+            position: relative;
+            width: 100%;
+            height: 80%;
+        }
+        .artoneys{
+            background-color: rgb(170, 186, 188);
+            width: 382vw;
+            height: 500vh;
+        }
+        .card1{
+            margin-bottom: 200px;
+        }
+        .contacts{
+        background-color: rgb(22, 41, 68);
+
+            filter: blur(40%);
+            width: 382vw;
+            height: 270vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .leftC,.rightC{
+            width: 100%;
+        }
+        .leftC{
+            text-align: center;
+        }
+        .rightC{
+            height: 700px;
+            width: 350vw;
+        }   
+        .rightC p{
+            padding: 20px;
+            font-size: 40px;
+        }
+        .form{
+            
+        }
+        .leftForms{
+            margin-top: 100px;
+            width: 280vw;
+            height: 800px;
+            padding: 20px; 
+        color: white;
+        
+        }
+        .texts {
+            color: white;
+            margin-left: 200px;
+        }
+        .texts p{
+            font-size: 3.5rem;
+
+        }
+        .texts h1{
+            font-size: 3.6rem;
+        }
+        .textarea{
+
+            width: 340vw;
+            height: 500px;
+        }
+        .textarea button{
+            width: 100%;
+            height: 100px;
+            background-color: transparent;
+            border: none;
+            font-size: 40px;
+            color: white;
+        }
+        .textarea button a{
+            text-decoration: none;
+            color: white;
+        }
+        .textarea h1{
+            font-size: 40px;
+            color: white;
+            margin-left: 340px;
+            margin-bottom: 10px;
+        }
+        .page{
+        background-image: url(pexels-olia-danilevich-5313133.jpg);
+            background-size: cover;
+            height: 220vh;
+            width: 382vw;
+            margin-top: 1450px;
+        }
+        .textarea textarea{
+                margin-left: 350px;
+            width: 60%;
+            height: 200px;
+            font-size: 20px;
+        }
+        input[type=submit]{
+            width: 60%;
+            height: 50px;
+            font-size: 20px;
+            margin-left: 350px;
+            margin-top: 40px;
+        }
+        .leftForms>div{
+            margin-left: 340px;
+            width: 100%;
+            height: 100px;
+            margin-bottom: 100px;
+        }
+        .leftForms>div>input{
+            width: 70%;
+            height: 100%;
+            font-size: 20px;
+        }
+
+        .last{
+            background-color: rgb(22, 41, 68);
+
+            width: 382vw;
+            height: 200px;
+            margin-top: 4px;
+            color: white;
+            position: relative;
+        }
+        .last button{
+            width: 100%;
+            padding: 20px;
+            background-color: transparent;
+            border: 2px solid black;
+            text-align: center;
+        }
+        #lasta{
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+            text-align: center;
+            margin-left: 30px;
+            font-size: 18px;
+        }
+        .last h1 {
+            font-size: 40px;
+            margin-left: 480px;
+            margin-top: 30px;
+        }
+        .page{
+            margin-bottom: 40px;
+            background-color: chartreuse;
+        }
+        .page>div{
+            background-color: red;
+        }
+        #lasta{
+            font-size: 2.3rem;
+        }
+
+
+    }
